@@ -1,0 +1,148 @@
+{
+  "_meta_v": "2.0",
+  "update": "n",
+  "cpid": "F08",
+  "channelid": "F0801",
+  "contentid": "F0801_F08000000009_01_0001.1",
+  "programid": "F0801_F08000000009",
+  "programtitle": "구구는 고양이다",
+  "programimage": "img.wavve.com/202110/20211008/42afdfa82dbc02b8fa61aafca3974461.jpg",
+  "programcircleimage": "img.wavve.com/BMS/program_circle/202110/F0801_F08000000009-3.png",
+  "programposterimage": "img.wavve.com/BMS/program_poster/202110/F0801_F08000000009-2.jpg",
+  "programreleaseweekday": "",
+  "programstarttime": "00:00",
+  "programendtime": "00:00",
+  "programsynopsis": "인기 만화가 '코지마 아사코'는 도쿄 기치조지에서 고양이 '구구', '비'와 함께 살고 있다. '미나미'는 이제 어시스턴트가 아닌 자신의 꿈인 만화가로서 독립을 준비한다. 그러면서 미나미는 아사코와 허심탄회한 대화를 통해 그동안 이해하기 힘들었던 아사코의 삶에 대해 이해하게 된다.",
+  "episodetitle": "동경을 일로 삼기",
+  "channelname": "",
+  "image": "img.wavve.com/202110/20211008/4df157c796662ab12bfc7e34b9c0d6db.jpg",
+  "episodenumber": "1",
+  "episodeorder": "new",
+  "releasedate": "",
+  "releaseweekday": "",
+  "releaseyear": "2021",
+  "firstreleasedate": "2021-02-08",
+  "firstreleaseyear": "2021",
+  "genretext": "해외시리즈",
+  "genrevalue": "09",
+  "livechannel": "",
+  "type": "general",
+  "targetage": "15",
+  "zzim": "n",
+  "alarm": "n",
+  "downloadable": "n",
+  "isclosed": "y",
+  "drms": "",
+  "nation": "일본",
+  "tags": {
+    "count": "2",
+    "list": [
+      {
+        "text": "일드",
+        "value": "vsg09004",
+        "taggroup": "tag"
+      },
+      {
+        "text": "동물",
+        "value": "vsg09051",
+        "taggroup": "tag"
+      }
+    ]
+  },
+  "synopsis": "인기 만화가 '코지마 아사코'는 도쿄 기치조지에서 고양이 '구구', '비'와 함께 살고 있다. '미나미'는 이제 어시스턴트가 아닌 자신의 꿈인 만화가로서 독립을 준비한다. 그러면서 미나미는 아사코와 허심탄회한 대화를 통해 그동안 이해하기 힘들었던 아사코의 삶에 대해 이해하게 된다.",
+  "actors": {
+    "count": "2",
+    "list": [
+      {
+        "text": "미야자와 리에",
+        "value": "미야자와 리에",
+        "taggroup": "tag"
+      },
+      {
+        "text": "쿠로키 하루",
+        "value": "쿠로키 하루",
+        "taggroup": "tag"
+      }
+    ]
+  },
+  "directors": {
+    "count": "1",
+    "list": [
+      {
+        "text": "이누도 잇신",
+        "value": "이누도 잇신",
+        "taggroup": "tag"
+      }
+    ]
+  },
+  "writers": {
+    "count": "1",
+    "list": [
+      {
+        "text": "타카다 료",
+        "value": "타카다 료",
+        "taggroup": "tag"
+      }
+    ]
+  },
+  "seasontitle": "구구는 고양이다 시즌2",
+  "seasonsynopsis": "인기 만화가 '아사코'와 고양이 '구구', '비' 그리고 귀여운 고양이들의 가슴 따뜻한 이야기!",
+  "comment": "코멘트테스트",
+  "price": "1",
+  "playtime": "2949",
+  "_playtime_log": "replaced",
+  "viewtime": "0",
+  "viewratio": "0.00",
+  "popularlist": "n",
+  "qualities": {
+    "ishevc": "n",
+    "pagecount": "5",
+    "count": "5",
+    "list": [
+      {
+        "id": "1080p",
+        "name": "FHD",
+        "marks": "",
+        "filesize": "1 GB"
+      },
+      {
+        "id": "720p",
+        "name": "HD",
+        "marks": "",
+        "filesize": "526 MB"
+      },
+      {
+        "id": "480p",
+        "name": "SD",
+        "marks": "",
+        "filesize": "292 MB"
+      },
+      {
+        "id": "360p",
+        "name": "모바일화질",
+        "marks": "",
+        "filesize": "157 MB"
+      },
+      {
+        "id": "100p",
+        "name": "오디오모드",
+        "marks": "",
+        "filesize": "0 MB"
+      }
+    ]
+  },
+  "nextepisode": {
+    "contentid": "F0801_F08000000009_01_0002.1",
+    "episodenumber": "2",
+    "releasedate": "2021-02-09",
+    "releaseweekday": "화",
+    "image": "img.wavve.com/202110/20211008/2ce40d41675816ad7f5a6471763c52a2.jpg"
+  },
+  "prevepisode": {
+    "contentid": "",
+    "episodenumber": "",
+    "releasedate": "",
+    "releaseweekday": "목",
+    "image": "img.wavve.com/service30/program_image/default.jpg"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "isnextpagegroup": "n",
+  "pagecount": "5",
+  "count": "5",
+  "list": [
+    {
+      "eventid": "526",
+      "eventtitle": "<잭 스나이더의 저스티스 리그: 회색의 저스티스> 추가공개 기념 얼 ’그레이’ 음료 증정 이벤트!",
+      "gift": "'폴바셋 얼그레이 레몬에이드  모바일 교환권'",
+      "announcementdate": "2021-05-13",
+      "startdate": "2021-04-29",
+      "enddate": "2021-05-12",
+      "description": "<잭 스나이더의 저스티스 리그: 회색의 저스티스> 추가공개 기념<br>얼 ’그레이’ 음료 증정 이벤트!",
+      "listimage": "img.wavve.com/service30/event/2021/20210429_event_101154.jpg",
+      "status": "y"
+    },
+    {
+      "eventid": "525",
+      "eventtitle": "<크루즈 패밀리: 뉴에이지> 예고편 보고, 예매권 받자!",
+      "gift": "‘<크루즈 패밀리: 뉴에이지> 모바일 예매권‘ (1인 2매)",
+      "announcementdate": "2021-05-06",
+      "startdate": "2021-04-23",
+      "enddate": "2021-05-05",
+      "description": "<크루즈 패밀리: 뉴에이지>  예고편 보고,<br>예매권 받자!",
+      "listimage": "img.wavve.com/service30/event/2021/20210423_event_180920.jpg",
+      "status": "y"
+    },
+    {
+      "eventid": "524",
+      "eventtitle": "제 93회 아카데미 시상식 기념 불후의 명작 할인전!",
+      "gift": "",
+      "announcementdate": "2021-04-22",
+      "startdate": "2021-04-22",
+      "enddate": "2021-05-05",
+      "description": "제 93회 아카데미 시상식 기념<br>불후의 명작 할인전!",
+      "listimage": "img.wavve.com/service30/event/2021/20210421_event_180025.jpg",
+      "status": "y"
+    },
+    {
+      "eventid": "523",
+      "eventtitle": "괴수대격돌! <고질라 vs 콩> 보고 몬스터 와퍼도 먹고!",
+      "gift": "'버거킹 몬스터와퍼 세트 모바일 교환권'",
+      "announcementdate": "2021-05-06",
+      "startdate": "2021-04-22",
+      "enddate": "2021-05-05",
+      "description": "괴수대격돌! <고질라 VS. 콩> 보고<br>몬스터 와퍼도 먹고!",
+      "listimage": "img.wavve.com/service30/event/2021/20210421_event_180244.jpg",
+      "status": "y"
+    },
+    {
+      "eventid": "522",
+      "eventtitle": "<미나리> 보고,  오리지널 굿즈도 받고!",
+      "gift": "'<미나리> 엽서 굿즈 세트'",
+      "announcementdate": "2021-05-20",
+      "startdate": "2021-04-21",
+      "enddate": "2021-05-18",
+      "description": "<미나리> 보고,<br>오리지널 굿즈도 받고!",
+      "listimage": "img.wavve.com/service30/event/2021/20210420_event_164222.jpg",
+      "status": "y"
+    }
+  ]
+}

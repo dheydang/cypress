@@ -1,0 +1,60 @@
+{
+  "note": "skb-porg-002-baseballteamcalendar-default-band",
+  "type": "pooq band",
+  "gen_time": "2021-05-07T00:36:16+00:00",
+  "version": "1.0",
+  "band": {
+    "cell_type": "band_43",
+    "celllist": [
+      {
+        "game_id": "",
+        "game_date": "",
+        "game_time": "",
+        "game_status": "",
+        "game_place": "",
+        "svc_id": "",
+        "inning": "",
+        "tb_gb": "",
+        "force_refresh": "N",
+        "record_yn": "N",
+        "alarm_yn": "N",
+        "alarm_on": "N",
+        "age": "all",
+        "age_tag": "",
+        "progress": "",
+        "rank": "",
+        "home_team": {},
+        "away_team": {},
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "오늘은 경기가 없어요."
+          },
+          {
+            "icon": "",
+            "text": "다른 일자 일정/결과 보기>"
+          },
+          {
+            "icon": "",
+            "text": ""
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-viewmore",
+            "url": "https://www.wavve.com/baseball/schedule",
+            "method": "get",
+            "bodyjson": {},
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ],
+        "top_taglist": [],
+        "bottom_taglist": []
+      }
+    ],
+    "game_count": 0
+  }
+}

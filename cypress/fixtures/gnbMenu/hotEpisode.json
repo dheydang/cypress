@@ -1,0 +1,890 @@
+{
+  "type": "pooq_band",
+  "gen_time": "es-vodhotepisodes-get-1630373927874",
+  "version": "1.0",
+  "band": {
+    "cell_type": "band_10",
+    "celllist": [
+      {
+        "thumbnail": "img.wavve.com/BMS/program_poster/202107/C9901_C99000000066-2.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          "quickvod"
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "경찰수업"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:C9901_C99000000066_01_0013.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=C9901_C99000000066_01_0013.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.pooq.co.kr/201806/20180611/c44a3f05c5ff61b09c066f35082030b9.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "동상이몽2_너는 내 운명"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:S01_E457016338.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=S01_E457016338.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202108/20210812/49227be55949cb795d86a156544c1d8f.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "홍천기"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:S01_E457033248.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=S01_E457033248.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202106/20210610/a383b0ef51e643a1d50bbbb1820bcd39.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "19",
+        "age_tag": "19",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "애로부부"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:C2501_WPG2200204DA00057.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=C2501_WPG2200204DA00057.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.pooq.co.kr/201809/20180917/9e9af53fb37a523d1b7ca17ee4390054.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "런닝맨"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:S01_E456999265.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=S01_E456999265.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202103/20210330/afd5a49f6da0513172c2419e4065a35e.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "아모르 파티 - 사랑하라, 지금"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:S01_E457033236.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=S01_E457033236.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202107/20210706/325a4a288076433ed5469df62815c6ba.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "골프왕"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:CS1_21005.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=CS1_21005.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202105/20210527/90b3cba657e5fd68e30d9188f834bef9.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "무엇이든 물어보살"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:K04_LS-20210830013127-01-000.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=K04_LS-20210830013127-01-000.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.pooq.co.kr/201903/20190329/0ac0d346e6c18a4f2aadccf411d7926f.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "미운 우리 새끼"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:S01_E456999302.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=S01_E456999302.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202101/20210106/ef58d15bc9e76a485c5f89af160d3a79.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "안싸우면 다행이야"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:M_EP202108207496.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=M_EP202108207496.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202009/20200907/cf54608dbb9c3c759e65960882ed32ef.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "개는 훌륭하다"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:K02_PS-2021145279-01-000.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=K02_PS-2021145279-01-000.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202106/20210601/d2c1d15886a1956a688fdee622d7b2b8.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "19",
+        "age_tag": "19",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "펜트하우스 3"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:S01_E456917961.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=S01_E456917961.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202104/20210420/d5d91268b5c3d7cf6c441e5ee94d509a.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "놀면 뭐하니?"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:M_EP202108207508.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=M_EP202108207508.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202107/20210705/6d3381d95ca9a5fd17f986f3bbd0ad70.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "일일드라마 빨강 구두"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:K02_PS-2021119986-01-000.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=K02_PS-2021119986-01-000.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202101/20210118/4925852208d53cdb648076f0e36de288.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "나 혼자 산다"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:M_EP202108207505.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=M_EP202108207505.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.pooq.co.kr/201805/20180530/d91633f8113409d77373de672f61739a.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "0",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "그것이 알고싶다"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:S01_E456925031.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=S01_E456925031.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202107/20210701/bf96026e4b1adeb14b7c6907ae89f705.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "돌싱글즈"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:C2401_1280354.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=C2401_1280354.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/202103/20210309/ea0d0d4e8779a6ef85a41abdb9a93930.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "오케이 광자매"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:K02_PS-2021139649-01-000.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=K02_PS-2021139649-01-000.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/BMS/program_poster/202108/M_T60404G-2_RERE.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "두 번째 남편"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:M_EP202108277553.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=M_EP202108277553.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.wavve.com/BMS/program_poster/202009/K02_T2005-0230_1-2.jpg",
+        "force_refresh": "n",
+        "top_taglist": [
+          ""
+        ],
+        "age": "15",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [
+          {
+            "icon": "",
+            "maxline": "1",
+            "text": "1박2일 시즌4"
+          }
+        ],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:VN1",
+              "uicode:K02_PS-2021114017-01-000.1",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/vod.html?contentid=K02_PS-2021114017-01-000.1",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      }
+    ]
+  }
+}
