@@ -1,35 +1,74 @@
 # This is a basic workflow to help you get started with Actions
-
-name: Cypress Tests
-
-on: [push]
+name: Create Cypress report
+on:
+  push:
+    branches:
+      - 'm먀ㅜ'
 
 jobs:
-  cypress-run:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-      - name: Save build folder
-        uses: actions/upload-artifact@v2
-        with:
-          name: build
-          if-no-files-found: error
-          path: build
 
-      - name: Cypress install
-        uses: cypress-io/github-action@v2
-        with:
-          # Disable running of tests within install job
-          runTests: false
-          build: yarn build
-      - name: Cypress run
-        uses: cypress-io/github-action@v2
-        with:
-          build: npm run build
-          start: npm start
-          browser: chrome
-        env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+  cypress-e2e-chrome88:
+    name: Run on Chrome 88
+    runs-on: ubuntu-18.04
+    container: cypress/browsers:node14.17.0-chrome88-ff89
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install a project with a clean slate
+        run: |
+          npm ci
+          $(npm bin)/cypress cache path
+          $(npm bin)/cypress cache list
+          $(npm bin)/cypress verify
+
+      - name: Run Cypress tests
+        run: npm run test:chrome
+        continue-on-error: true
+
+      - name: Copy test execution videos
+        run: |
+          mkdir public
+          cp -r cypress/videos public/videos
+
+      - name: Merge test results into one
+        run: npm run report:merge
+
+      - name: Generate HTML report
+        run: npm run report:generate
+
+#name: Cypress Tests
+#
+#on:
+#  push:
+#    branches:
+#      - 'main'
+#
+#jobs:
+#  cypress-run:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@v2
+#      # Install NPM dependencies, cache them correctly
+#      # and run all Cypress tests
+#      - name: Save build folder
+#        uses: actions/upload-artifact@v2
+#        with:
+#          name: build
+#          if-no-files-found: error
+#          path: build
+#
+#      - name: Cypress install
+#        uses: cypress-io/github-action@v2
+#        with:
+#          # Disable running of tests within install job
+#          runTests: false
+#          build: yarn build
+#      - name: Cypress run
+#        uses: cypress-io/github-action@v2
+#        with:
+#          build: npm run build
+#          start: npm start
+#          browser: chrome
+#        env:
+#          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
