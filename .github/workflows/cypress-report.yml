@@ -1,133 +1,46 @@
-name: Cypress Tests with Install Job and UI Chrome Job x 5
-
-on: [push]
+name: main
+on:
+  push:
+    branches:
+      - 'master'
+  pull_request:
 jobs:
-  install:
-    runs-on: ubuntu-latest
-    container: cypress/browsers:node12.18.3-chrome87-ff82
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-#      - name: Save build folder
-#        uses: actions/upload-artifact@v2
-#        with:
-#          name: build
-#          if-no-files-found: error
-#          path: build
-
-      - name: Cypress install
-        uses: cypress-io/github-action@v2
-        with:
-          # Disable running of tests within install job
-          runTests: false
-          build: yarn build
-  ui-chrome-tests:
-    runs-on: ubuntu-latest
-    container: cypress/browsers:node12.18.3-chrome87-ff82
-    needs: install
+  build-and-test:
+    runs-on: ubuntu-20.04
     strategy:
-      fail-fast: false
       matrix:
-        # run copies of the current job in parallel
-        containers: [ 1, 2, 3, 4, 5 ]
+        node: [12, 14, 16]
+    name: Test on Node v${{ matrix.node }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
-      - name: Download the build folders
-        uses: actions/download-artifact@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
         with:
-          name: build
-          path: build
+          node-version: ${{ matrix.node }}
+      - uses: bahmutov/npm-install@v1
+      - run: npm run format
+      - run: npm run build
+      - run: npm test
+      - run: npm run check:markdown
 
-      - name: 'UI Tests - Chrome'
-        uses: cypress-io/github-action@v2
+
+  release:
+    runs-on: ubuntu-20.04
+    name: release
+    needs: [build-and-test]
+    # only release from the master branch
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: bahmutov/npm-install@v1
+      # https://github.com/cycjimmy/semantic-release-action
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v2
+        id: semantic
         with:
-          # we have already installed all dependencies above
-          install: false
-          start: yarn start:ci
-          wait-on: 'http://www.wavve.com'
-          wait-on-timeout: 120
-          browser: chrome
-          record: true
-          parallel: true
-          group: 'UI - Chrome'
-          spec: cypress/tests/ui/*
-        env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-          # Recommended: pass the GitHub token lets this action correctly
-          # determine the unique run id necessary to re-run the checks
-
-
-
-## This is a basic workflow to help you get started with Actions
-#name: Create Cypress report
-#on:
-#  push:
-#    branches:
-#      - 'main'
-#
-#jobs:
-#  cypress-e2e-chrome88:
-#    name: Run on Chrome 88
-#    runs-on: ubuntu-18.04
-#    container: cypress/browsers:node14.17.0-chrome88-ff89
-#    steps:
-#      - uses: actions/checkout@v2
-#
-#      - name: Install a project with a clean slate
-#        run: |
-#          npm ci
-#          $(npm bin)/cypress cache path
-#          $(npm bin)/cypress cache list
-#          $(npm bin)/cypress verify
-#
-#      - name: Run Cypress tests
-#        uses: cypress-io/github-action@v2
-#        with:
-#          browser: chrom
-##        run: npm run test
-#
-#      - name: Merge test results into one
-#        run: npm run report:merge
-#
-#      - name: Generate HTML report
-#        run: npm run report:generate
-
-#name: Cypress Tests
-#
-#on:
-#  push:
-#    branches:
-#      - 'main'
-#
-#jobs:
-#  cypress-run:
-#    runs-on: ubuntu-latest
-#    steps:
-#      - name: Checkout
-#        uses: actions/checkout@v2
-#      # Install NPM dependencies, cache them correctly
-#      # and run all Cypress tests
-#      - name: Save build folder
-#        uses: actions/upload-artifact@v2
-#        with:
-#          name: build
-#          if-no-files-found: error
-#          path: build
-#
-#      - name: Cypress install
-#        uses: cypress-io/github-action@v2
-#        with:
-#          # Disable running of tests within install job
-#          runTests: false
-#          build: yarn build
-#      - name: Cypress run
-#        uses: cypress-io/github-action@v2
-#        with:
-#          build: npm run build
-#          start: npm start
-#          browser: chrome
-#        env:
-#          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          branch: master
+          extra_plugins: |
+            @semantic-release/git
+            @semantic-release/changelog
