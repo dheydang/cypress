@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327291b4-40f7-449e-b45a-9647dcd14b52" name="Changes" comment="" />
+    <list default="true" id="327291b4-40f7-449e-b45a-9647dcd14b52" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/cypress-report.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cypress-report.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +59,7 @@
       <workItem from="1649770337746" duration="50000" />
       <workItem from="1649808191730" duration="4328000" />
       <workItem from="1649815843017" duration="1917000" />
-      <workItem from="1649824784886" duration="983000" />
+      <workItem from="1649824784886" duration="1587000" />
     </task>
     <servers />
   </component>
