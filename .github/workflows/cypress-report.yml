@@ -15,8 +15,11 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          # Specify Browser since container image is compile with Firefox
+          install: false
+          start: yarn start:ci
+          record: true
           spec: |
             cypress/integration/pcWeb/adultSetting.spec.js
-
           browser: chrome
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}

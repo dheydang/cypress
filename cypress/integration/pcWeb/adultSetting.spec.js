@@ -80,7 +80,4 @@ context('성인 콘텐츠 설정 페이지', () => {
         cy.get('[data-test="adult-pw-setting"]').click({ force: true })
         cy.window().its('open').should('be.called')
     })
-    it('test', () => {
-        cy.log('test')
-    })
 })
