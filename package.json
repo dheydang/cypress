@@ -13,5 +13,15 @@
   },
   "dependencies": {
     "bluebird": "^3.7.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheydang/cypress.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/dheydang/cypress/issues"
+  },
+  "homepage": "https://github.com/dheydang/cypress#readme",
+  "description": ""
 }
