@@ -7,9 +7,6 @@
     <list default="true" id="327291b4-40f7-449e-b45a-9647dcd14b52" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/cypress-report.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cypress-report.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/adultSettings/cypress.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/adultSettings/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/adultSettings/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
