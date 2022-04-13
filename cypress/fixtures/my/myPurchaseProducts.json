@@ -1,0 +1,37 @@
+{
+  "pagecount": "1",
+  "count": "1",
+  "list": [
+    {
+      "producttype": "pass",
+      "producttext": "wavve 팩",
+      "descriptiontext": "방송+LIVE+해외시리즈+wavvie영화",
+      "attributetext": "(모바일 + PC $O$ HD 시청 $O$ 1회선)",
+      "paymentid": "3247",
+      "userserviceid": "2089",
+      "productid": "pk_1487",
+      "productname": "Basic",
+      "productdescription": "동시접속 1명, HD 화질, 모바일+PC",
+      "productgroupname": "wavve 팩",
+      "productgroupdescription": "방송+LIVE+해외시리즈+wavvie영화",
+      "screentext": "모바일 + PC",
+      "qualityid": "0000001010",
+      "qualitytext": "HD",
+      "periodtext": "",
+      "amount": "7900",
+      "autopayment": "true",
+      "concurrecycount": "1",
+      "startdate": "2021-07-23 10:55",
+      "enddate": "2055-08-23 23:59",
+      "paymentmethod": "신용카드(페이레터)",
+      "downloadcount": "0",
+      "downloadlimit": "30",
+      "autopaymentstatus": "y",
+      "status": "y",
+      "packagemasterid": "149",
+      "transactionid": "1000004882",
+      "changemethod": "y",
+      "issktstream": "n"
+    }
+  ]
+}

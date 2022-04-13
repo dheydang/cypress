@@ -1,0 +1,17 @@
+{
+  "promotion": [
+    {
+      "text1": "wavve 첫 달 100원",
+      "text1color": "#a5a5a5",
+      "text2": "이용권 업그레이드 혜택까지!",
+      "text2color": "#a5a5a5",
+      "button": "확인하기",
+      "link": "www.wavve.com/voucher/index.html"
+    }
+  ],
+  "mypass": [],
+  "coupon": "0",
+  "coin": "0",
+  "downloadcount": "0",
+  "purchasecount": "0"
+}

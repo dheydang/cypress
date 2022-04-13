@@ -1,0 +1,17 @@
+{
+  "promotion": [
+    {
+      "text1": "[EVENT] 본인인증하면",
+      "text1color": "#a5a5a5",
+      "text2": "첫 달 100원!",
+      "text2color": "#a5a5a5",
+      "button": "인증받기",
+      "link": "member.wavve.com/me/auth"
+    }
+  ],
+  "mypass": [],
+  "coupon": "0",
+  "coin": "0",
+  "downloadcount": "0",
+  "purchasecount": "0"
+}

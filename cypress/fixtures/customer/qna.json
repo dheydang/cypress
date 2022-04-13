@@ -1,0 +1,32 @@
+{
+  "pagecount": "1",
+  "count": "1",
+  "list": [
+    {
+      "qnaid": 742335,
+      "title": "test",
+      "status": "문의오류",
+      "statusid": "106",
+      "regdate": "2021.04.02",
+      "name": "test",
+      "email": "test@test.com",
+      "phone": "010-0000-0000",
+      "questiontype": "설치/작동오류",
+      "servicetype": "VOD",
+      "programinfo": "test",
+      "env_1": "PC web",
+      "env_2": "test",
+      "contents": "test",
+      "answers": [
+        {
+          "qnaid": 742335,
+          "status": "문의오류",
+          "statusid": "106",
+          "regdate": "2021.04.06",
+          "answer": "<p>안녕하세요 wavve입니다.</p><p>문의하신 내용이 명확하게 확인되지 않아 답변이 어렵습니다.</p><p>문의 내용을 확인하신 후 다시 문의해주세요.</p>",
+          "complete": "y"
+        }
+      ]
+    }
+  ]
+}

@@ -1,29 +1,8 @@
-# name: End-to-end tests
-# on: [push]
-# jobs:
-#   cypress-run:
-#     runs-on: ubuntu-20.04
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v2
-#       # Install NPM dependencies, cache them correctly
-#       # and run all Cypress tests
-#       - name: Cypress run
-#         uses: cypress-io/github-action@v2
-#         with:
-#           working-directory: integration/pcWeb
-#           spec: adultSettings.spec.js
-
-
 name: example-basic
 on:
   push:
-<<<<<<< Updated upstream
-    branches:    
-=======
     branches:
->>>>>>> Stashed changes
-      - 'master'
+      - 'main'
   pull_request:
 jobs:
   # note: Ubuntu 16 probably works, but is deprecated
@@ -41,7 +20,7 @@ jobs:
         # the parameters below are only necessary
         # because we are running these examples in a monorepo
         with:
-          working-directory: examples/basic
+          working-directory: cypress/integration/pcWeb
           # just for full picture after installing Cypress
           # print information about detected browsers, etc
           # see https://on.cypress.io/command-line#cypress-info
@@ -56,7 +35,7 @@ jobs:
       - name: Cypress tests
         uses: ./
         with:
-          working-directory: examples/basic
+          working-directory: cypress/integration/pcWeb
           build: npx cypress info
 
   basic-on-windows:
@@ -68,7 +47,7 @@ jobs:
       - name: Cypress tests
         uses: ./
         with:
-          working-directory: examples/basic
+          working-directory: cypress/integration/pcWeb
           build: npx cypress info
 
   basic-on-mac:
@@ -80,7 +59,7 @@ jobs:
       - name: Cypress tests
         uses: ./
         with:
-          working-directory: integration/pcWeb
+          working-directory: cypress/integration/pcWeb
           build: npx cypress info
 
   # skips the binary installation
@@ -95,6 +74,7 @@ jobs:
       - name: Cypress tests
         uses: ./
         with:
-          working-directory: integration/pcWeb
+          working-directory: cypress/integration/pcWeb
+          # since we do not install Cypress
+          # we should not attempt to run tests
           spec: adultSettings.spec.js
-          runTests: false

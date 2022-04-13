@@ -1,0 +1,138 @@
+[
+  {
+    "passgroup_name":"wavve 이용권",
+    "passgroup_type":"wavve",
+    "packagegroup_color":"#ffffff",
+    "productgroups_count":"1",
+    "productgroups":[
+      {
+        "productgroup_name":"",
+        "description":"방송+LIVE+wavvie영화+해외시리즈",
+        "products_count":"3",
+        "color":"#3887ff",
+        "products":[
+          {
+            "quality_name":"HD화질",
+            "concurrency_count":"1",
+            "concurrency":[
+              {
+                "product_name":"Basic",
+                "description":"동시시청 1회선, HD화질, 모바일+PC",
+                "concurrency_count":"1",
+                "discountdisplayamount":"",
+                "displayamount":"",
+                "amount":"7900",
+                "productid":"pk_1487",
+                "externcode":""
+              }
+            ]
+          },
+          {
+            "quality_name":"FHD화질",
+            "concurrency_count":"1",
+            "concurrency":[
+              {
+                "product_name":"Standard",
+                "description":"동시시청 2회선, FHD화질, 전체 디바이스",
+                "concurrency_count":"2",
+                "discountdisplayamount":"",
+                "displayamount":"",
+                "amount":"10900",
+                "productid":"pk_1488",
+                "externcode":""
+              }
+            ]
+          },
+          {
+            "quality_name":"최상위 화질",
+            "concurrency_count":"1",
+            "concurrency":[
+              {
+                "product_name":"Premium",
+                "description":"동시시청 4회선, 최상위 화질, 전체 디바이스",
+                "concurrency_count":"4",
+                "discountdisplayamount":"",
+                "displayamount":"",
+                "amount":"13900",
+                "productid":"pk_1489",
+                "externcode":""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "passgroup_name":"제휴 이용권",
+    "passgroup_type":"partner",
+    "packagegroup_color":"#a5a5a5",
+    "productgroups_count":"1",
+    "productgroups":[
+      {
+        "productgroup_name":"",
+        "description":"",
+        "products_count":"1",
+        "concurrency_count":"1",
+        "color":"",
+        "products":[
+          {
+            "quality_name":"HD화질",
+            "concurrency_count":"1",
+            "concurrency":[
+              {
+                "is_product_external":"y",
+                "external_link_target":"_blank",
+                "external_link_pc":"https://www.music-flo.com/purchase/affiliate",
+                "external_link_mobile":"https://m.music-flo.com/purchase/affiliate",
+                "external_link_android":"captvpooq://webview?url=https%3A%2F%2Fm.music-flo.com%2Fpurchase%2Faffiliate&external=y",
+                "external_link_ios":"",
+                "product_name":"Basic X FLO 무제한",
+                "description":"동시시청 1회선, HD화질, 모바일+PC\n(FLO 에서 구매 가능)",
+                "concurrency_count":"1",
+                "discountdisplayamount":"",
+                "displayamount":"",
+                "amount":"13750",
+                "productid":"",
+                "externcode":""
+              }
+            ]
+          },
+          {
+            "quality_name":"HD화질",
+            "concurrency_count":"1",
+            "concurrency":[
+              {
+                "product_name":"Basic X Bugs 듣기",
+                "description":"동시시청 1회선, HD화질, 모바일+PC",
+                "concurrency_count":"1",
+                "discountdisplayamount":"",
+                "displayamount":"",
+                "amount":"13750",
+                "productid":"pk_1494",
+                "externcode":""
+              }
+            ]
+          },
+          {
+            "quality_name":"HD화질",
+            "concurrency_count":"1",
+            "concurrency":[
+              {
+                "product_name":"Basic X KB 나라사랑카드",
+                "description":"동시시청 1회선, HD화질, 모바일+PC",
+                "concurrency_count":"1",
+                "discountdisplayamount":"",
+                "displayamount":"7900",
+                "amount":"6700",
+                "discount_rate":"15",
+                "productid":"pk_2005",
+                "externcode":""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
