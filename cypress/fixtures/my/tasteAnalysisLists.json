@@ -1,0 +1,632 @@
+[
+  {
+    "type": "analysisprogramlist",
+    "count": "8",
+    "list": [
+      {
+        "channeltitle": "KBS 2TV",
+        "programid": "K02_T2021-0001",
+        "programtitle": "달이 뜨는 강",
+        "image": "img.wavve.com/BMS/program_poster/202103/K02_T2021-0001-2.jpg",
+        "viewtime": "36020"
+      },
+      {
+        "channeltitle": "SBS",
+        "programid": "S01_P453505934",
+        "programtitle": "펜트하우스 2",
+        "image": "img.wavve.com/202102/20210224/9bb91bda00a641c628276fd6f97b4235.jpg",
+        "viewtime": "34490"
+      },
+      {
+        "channeltitle": "wavve 오리지널",
+        "programid": "C9901_C99000000062",
+        "programtitle": "오월의 청춘",
+        "image": "img.wavve.com/BMS/program_poster/202104/C9901_C99000000062-2.jpg",
+        "viewtime": "23690"
+      },
+      {
+        "channeltitle": "KBS 2TV",
+        "programid": "K02_T2020-0412",
+        "programtitle": "비밀의 남자",
+        "image": "img.wavve.com/202009/20200907/909d378f79076e02b39a0abb671998b5.jpg",
+        "viewtime": "22830"
+      },
+      {
+        "channeltitle": "MBC",
+        "programid": "M_1002831100000100000",
+        "programtitle": "나 혼자 산다",
+        "image": "img.wavve.com/202101/20210118/4925852208d53cdb648076f0e36de288.jpg",
+        "viewtime": "12010"
+      },
+      {
+        "channeltitle": "MBC",
+        "programid": "M_1003594100000100000",
+        "programtitle": "전지적 참견시점",
+        "image": "img.wavve.com/202011/20201103/825795a7892192fe9f0725f46b0182c3.jpg",
+        "viewtime": "5780"
+      },
+      {
+        "channeltitle": "SBS",
+        "programid": "S01_P453995091",
+        "programtitle": "꼬리에 꼬리를 무는 그날 이야기 시즌2",
+        "image": "img.wavve.com/202105/20210504/58570c3081f3efe20646831ed70f6dd4.jpg",
+        "viewtime": "4810"
+      },
+      {
+        "channeltitle": "SBS",
+        "programid": "S01_V2000010476",
+        "programtitle": "동상이몽2_너는 내 운명",
+        "image": "img.pooq.co.kr/201806/20180611/c44a3f05c5ff61b09c066f35082030b9.jpg",
+        "viewtime": "2820"
+      },
+      {
+        "channeltitle": "MBC",
+        "programid": "M_1002831100000100000",
+        "programtitle": "나 혼자 산다",
+        "image": "img.wavve.com/202101/20210118/4925852208d53cdb648076f0e36de288.jpg",
+        "viewtime": "12010"
+      },
+      {
+        "channeltitle": "MBC",
+        "programid": "M_1003594100000100000",
+        "programtitle": "전지적 참견시점",
+        "image": "img.wavve.com/202011/20201103/825795a7892192fe9f0725f46b0182c3.jpg",
+        "viewtime": "5780"
+      },
+      {
+        "channeltitle": "SBS",
+        "programid": "S01_P453995091",
+        "programtitle": "꼬리에 꼬리를 무는 그날 이야기 시즌2",
+        "image": "img.wavve.com/202105/20210504/58570c3081f3efe20646831ed70f6dd4.jpg",
+        "viewtime": "4810"
+      },
+      {
+        "channeltitle": "SBS",
+        "programid": "S01_V2000010476",
+        "programtitle": "동상이몽2_너는 내 운명",
+        "image": "img.pooq.co.kr/201806/20180611/c44a3f05c5ff61b09c066f35082030b9.jpg",
+        "viewtime": "2820"
+      }
+    ]
+  },
+  {
+    "type": "analysisvodpersonlist",
+    "count": "83",
+    "list": [
+      {
+        "persionid": "김은수",
+        "persionname": "김은수",
+        "viewcount": "16"
+      },
+      {
+        "persionid": "이정용",
+        "persionname": "이정용",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "강은탁",
+        "persionname": "강은탁",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "김윤경",
+        "persionname": "김윤경",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "채빈",
+        "persionname": "채빈",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "이시강",
+        "persionname": "이시강",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "김희정",
+        "persionname": "김희정",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "홍일권",
+        "persionname": "홍일권",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "양미경",
+        "persionname": "양미경",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "최재성",
+        "persionname": "최재성",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "엄현경",
+        "persionname": "엄현경",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "이진우",
+        "persionname": "이진우",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "이일화",
+        "persionname": "이일화",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "이루",
+        "persionname": "이루",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "이명호",
+        "persionname": "이명호",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "장태훈",
+        "persionname": "장태훈",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "이채영",
+        "persionname": "이채영",
+        "viewcount": "11"
+      },
+      {
+        "persionid": "이지훈",
+        "persionname": "이지훈",
+        "viewcount": "10"
+      },
+      {
+        "persionid": "나인우",
+        "persionname": "나인우",
+        "viewcount": "10"
+      },
+      {
+        "persionid": "강하늘외",
+        "persionname": "강하늘외",
+        "viewcount": "10"
+      },
+      {
+        "persionid": "김소현",
+        "persionname": "김소현",
+        "viewcount": "10"
+      },
+      {
+        "persionid": "최유화",
+        "persionname": "최유화",
+        "viewcount": "10"
+      },
+      {
+        "persionid": "오만석",
+        "persionname": "오만석",
+        "viewcount": "6"
+      },
+      {
+        "persionid": "이상이",
+        "persionname": "이상이",
+        "viewcount": "5"
+      },
+      {
+        "persionid": "황영희",
+        "persionname": "황영희",
+        "viewcount": "5"
+      },
+      {
+        "persionid": "김원해",
+        "persionname": "김원해",
+        "viewcount": "5"
+      },
+      {
+        "persionid": "금새록",
+        "persionname": "금새록",
+        "viewcount": "5"
+      },
+      {
+        "persionid": "고민시",
+        "persionname": "고민시",
+        "viewcount": "5"
+      },
+      {
+        "persionid": "심이영",
+        "persionname": "심이영",
+        "viewcount": "5"
+      },
+      {
+        "persionid": "이도현",
+        "persionname": "이도현",
+        "viewcount": "5"
+      },
+      {
+        "persionid": "엄효섭",
+        "persionname": "엄효섭",
+        "viewcount": "5"
+      },
+      {
+        "persionid": "박나래",
+        "persionname": "박나래",
+        "viewcount": "3"
+      },
+      {
+        "persionid": "기안84",
+        "persionname": "기안84",
+        "viewcount": "3"
+      },
+      {
+        "persionid": "헨리",
+        "persionname": "헨리",
+        "viewcount": "3"
+      },
+      {
+        "persionid": "이시언",
+        "persionname": "이시언",
+        "viewcount": "3"
+      },
+      {
+        "persionid": "화사",
+        "persionname": "화사",
+        "viewcount": "3"
+      },
+      {
+        "persionid": "성훈",
+        "persionname": "성훈",
+        "viewcount": "3"
+      },
+      {
+        "persionid": "김숙",
+        "persionname": "김숙",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "김구라",
+        "persionname": "김구라",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "홍현희",
+        "persionname": "홍현희",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "유병재",
+        "persionname": "유병재",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "이영자",
+        "persionname": "이영자",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "박성광",
+        "persionname": "박성광",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "강경준",
+        "persionname": "강경준",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "장신영",
+        "persionname": "장신영",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "이솔이",
+        "persionname": "이솔이",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "박선영",
+        "persionname": "박선영",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "송은이",
+        "persionname": "송은이",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "이병헌",
+        "persionname": "이병헌",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "정찬성",
+        "persionname": "정찬성",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "양세형",
+        "persionname": "양세형",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "서장훈",
+        "persionname": "서장훈",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "전현무",
+        "persionname": "전현무",
+        "viewcount": "2"
+      },
+      {
+        "persionid": "다코타 존슨",
+        "persionname": "다코타 존슨",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "하정우",
+        "persionname": "하정우",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "최민호",
+        "persionname": "최민호",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "황정민",
+        "persionname": "황정민",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "루크 그림즈",
+        "persionname": "루크 그림즈",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "제이미 도넌",
+        "persionname": "제이미 도넌",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "김명민",
+        "persionname": "김명민",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "박희순",
+        "persionname": "박희순",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "테렌스 하워드",
+        "persionname": "테렌스 하워드",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "장항준",
+        "persionname": "장항준",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "장성규",
+        "persionname": "장성규",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "장기용",
+        "persionname": "장기용",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "이정재",
+        "persionname": "이정재",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "로버트 다우니 주니어",
+        "persionname": "로버트 다우니 주니어",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "제니퍼 엘",
+        "persionname": "제니퍼 엘",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "김아중",
+        "persionname": "김아중",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "백윤식",
+        "persionname": "백윤식",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "김성철",
+        "persionname": "김성철",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "곽시양",
+        "persionname": "곽시양",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "김상중",
+        "persionname": "김상중",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "기네스 펠트로",
+        "persionname": "기네스 펠트로",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "최민식",
+        "persionname": "최민식",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "강동원",
+        "persionname": "강동원",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "장도연",
+        "persionname": "장도연",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "제프 브리지스",
+        "persionname": "제프 브리지스",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "마동석",
+        "persionname": "마동석",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "조승우",
+        "persionname": "조승우",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "김인권",
+        "persionname": "김인권",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "김우빈",
+        "persionname": "김우빈",
+        "viewcount": "1"
+      },
+      {
+        "persionid": "신하균",
+        "persionname": "신하균",
+        "viewcount": "1"
+      }
+    ]
+  },
+  {
+    "type": "analysischannellist",
+    "count": "5",
+    "list": [
+      {
+        "channelid": "S01",
+        "channelname": "SBS",
+        "image": "img.pooq.co.kr/BMS/Channelimage30/circle/S01.png",
+        "viewtime": "20120"
+      },
+      {
+        "channelid": "C5202",
+        "channelname": "iHQ 맛있는녀석들",
+        "image": "img.pooq.co.kr/BMS/Channelimage30/circle/delicious-3.png",
+        "viewtime": "4080"
+      },
+      {
+        "channelid": "M01",
+        "channelname": "MBC",
+        "image": "img.pooq.co.kr/BMS/Channelimage30/circle/M01.png",
+        "viewtime": "2060"
+      },
+      {
+        "channelid": "C2601",
+        "channelname": "TV CHOSUN",
+        "image": "img.pooq.co.kr/BMS/Channelimage30/circle/430x430.png",
+        "viewtime": "480"
+      },
+      {
+        "channelid": "F2701",
+        "channelname": "SK스토아",
+        "image": "img.wavve.com/BMS/Channelimage30/circle/F2701_CircleImg_20210308162242.png",
+        "viewtime": "320"
+      },
+      {
+        "channelid": "S01",
+        "channelname": "SBS",
+        "image": "img.pooq.co.kr/BMS/Channelimage30/circle/S01.png",
+        "viewtime": "20120"
+      },
+      {
+        "channelid": "C5202",
+        "channelname": "iHQ 맛있는녀석들",
+        "image": "img.pooq.co.kr/BMS/Channelimage30/circle/delicious-3.png",
+        "viewtime": "4080"
+      },
+      {
+        "channelid": "M01",
+        "channelname": "MBC",
+        "image": "img.pooq.co.kr/BMS/Channelimage30/circle/M01.png",
+        "viewtime": "2060"
+      },
+      {
+        "channelid": "C2601",
+        "channelname": "TV CHOSUN",
+        "image": "img.pooq.co.kr/BMS/Channelimage30/circle/430x430.png",
+        "viewtime": "480"
+      },
+      {
+        "channelid": "F2701",
+        "channelname": "SK스토아",
+        "image": "img.wavve.com/BMS/Channelimage30/circle/F2701_CircleImg_20210308162242.png",
+        "viewtime": "320"
+      },
+      {
+        "channelid": "S01",
+        "channelname": "SBS",
+        "image": "img.pooq.co.kr/BMS/Channelimage30/circle/S01.png",
+        "viewtime": "20120"
+      },
+      {
+        "channelid": "C5202",
+        "channelname": "iHQ 맛있는녀석들",
+        "image": "img.pooq.co.kr/BMS/Channelimage30/circle/delicious-3.png",
+        "viewtime": "4080"
+      },
+      {
+        "channelid": "M01",
+        "channelname": "MBC",
+        "image": "img.pooq.co.kr/BMS/Channelimage30/circle/M01.png",
+        "viewtime": "2060"
+      },
+      {
+        "channelid": "C2601",
+        "channelname": "TV CHOSUN",
+        "image": "img.pooq.co.kr/BMS/Channelimage30/circle/430x430.png",
+        "viewtime": "480"
+      },
+      {
+        "channelid": "F2701",
+        "channelname": "SK스토아",
+        "image": "img.wavve.com/BMS/Channelimage30/circle/F2701_CircleImg_20210308162242.png",
+        "viewtime": "320"
+      }
+    ]
+  },
+  {
+    "type": "analysistaglist",
+    "count": "0",
+    "list": []
+  },
+  {
+    "type": "analysisdevicelist",
+    "count": "3",
+    "list": [
+      {
+        "devicename": "PC",
+        "viewtime": "14"
+      },
+      {
+        "devicename": "MOBILE",
+        "viewtime": "13"
+      },
+      {
+        "devicename": "TV",
+        "viewtime": "34"
+      }
+    ]
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "type": "pooq_band",
+  "gen_time": "cf-uiservice-zzimcontenttype-get-1620956177519",
+  "version": "1.0",
+  "band": {
+    "cell_type": "band_21",
+    "celllist": [
+      {
+        "thumbnail": "img.pooq.co.kr/BMS/Channelimage30/circle/KBS_1TV-3.png",
+        "force_refresh": "y",
+        "top_taglist": [],
+        "age": "0",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:GN54-LY2",
+              "uicode:K01",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/live.html?channelid=K01",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-longpressdelete",
+            "url": "apis.wavve.com/zzim/contents",
+            "method": "delete",
+            "bodylist": [],
+            "bodyjson": {
+              "contenttype": "live",
+              "contentids": [
+                "K01"
+              ],
+              "delalarm": "y"
+            },
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      },
+      {
+        "thumbnail": "img.pooq.co.kr/BMS/Channelimage30/circle/C2101.png",
+        "force_refresh": "y",
+        "top_taglist": [],
+        "age": "0",
+        "age_tag": "",
+        "bottom_taglist": [],
+        "time": "",
+        "progress": "",
+        "rank": "",
+        "title_list": [],
+        "event_list": [
+          {
+            "type": "on-click",
+            "url": "uievent3.wavve.com/uievent",
+            "method": "post",
+            "bodylist": [
+              "type:click",
+              "uirank:1",
+              "uiparent:GN54-LY2",
+              "uicode:C2101",
+              "timestamp:$TIMESTAMP"
+            ],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-navigation",
+            "url": "/player/live.html?channelid=C2101",
+            "method": "get",
+            "bodylist": [],
+            "add_common_params": "y",
+            "add_credential": "y"
+          },
+          {
+            "type": "on-longpressdelete",
+            "url": "apis.wavve.com/zzim/contents",
+            "method": "delete",
+            "bodylist": [],
+            "bodyjson": {
+              "contenttype": "live",
+              "contentids": [
+                "C2101"
+              ],
+              "delalarm": "y"
+            },
+            "add_common_params": "y",
+            "add_credential": "y"
+          }
+        ]
+      }
+    ]
+  }
+}

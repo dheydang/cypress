@@ -1,62 +1,27 @@
 {
-  "name": "@cypress/github-action",
-  "version": "0.0.0-development",
-  "description": "GitHub Action for running Cypress end-to-end tests",
-  "private": false,
-  "main": "dist/index.js",
-  "files": [
-    "dist",
-    "src",
-    "action.yml"
-  ],
+  "name": "web-ci",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"There are no tests :(\"",
-    "build": "ncc build -o dist index.js",
-    "format": "prettier --write index.js",
-    "check:markdown": "find *.md -exec npx markdown-link-check {} \\;"
+    "test": "yarn cypress open"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "auth0-js": "^9.16.2",
+    "cypress": "^6.2.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cypress-io/github-action.git"
+    "url": "git+https://github.com/dheydang/cypress.git"
   },
-  "keywords": [
-    "actions",
-    "cypress-io"
-  ],
-  "author": "Gleb Bahmutov <gleb@cypress.io>",
-  "license": "MIT",
+  "author": "",
   "bugs": {
-    "url": "https://github.com/cypress-io/github-action/issues"
+    "url": "https://github.com/dheydang/cypress/issues"
   },
-  "homepage": "https://github.com/cypress-io/github-action#readme",
-  "dependencies": {
-    "@actions/cache": "1.0.11",
-    "@actions/core": "1.6.0",
-    "@actions/exec": "1.1.1",
-    "@actions/io": "1.1.2",
-    "@octokit/core": "3.6.0",
-    "argument-vector": "1.0.2",
-    "debug": "4.3.3",
-    "execa": "6.1.0",
-    "find-yarn-workspace-root": "2.0.0",
-    "got": "11.8.3",
-    "hasha": "5.2.2",
-    "quote": "0.4.0"
-  },
-  "devDependencies": {
-    "@types/node": "16.11.26",
-    "@zeit/ncc": "0.22.3",
-    "husky": "7.0.4",
-    "markdown-link-check": "3.10.0",
-    "prettier": "2.6.2",
-    "stop-build": "1.1.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run format && npm run build && git add index.js dist"
-    }
-  }
+  "homepage": "https://github.com/dheydang/cypress#readme",
+  "description": ""
 }

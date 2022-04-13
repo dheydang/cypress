@@ -1,0 +1,87 @@
+{
+  "isnextpagegroup": "y",
+  "pagecount": "110",
+  "count": "10",
+  "list": [
+    {
+      "noticeid": "2524",
+      "noticetypetext": "콘텐츠공지",
+      "noticetitle": "[QVOD 중지] KBS 2TV <슈퍼맨이 돌아왔다> 2021년 5월 2일 에피소드",
+      "regdate": "2021-05-02",
+      "istop": "n",
+      "isNew": "y"
+    },
+    {
+      "noticeid": "2523",
+      "noticetypetext": "콘텐츠공지",
+      "noticetitle": "[QVOD 중지] SBS <그것이 알고싶다> 2021년 5월 1일 에피소드",
+      "regdate": "2021-05-02",
+      "istop": "y",
+      "isNew": "n"
+    },
+    {
+      "noticeid": "2522",
+      "noticetypetext": "콘텐츠공지",
+      "noticetitle": "[QVOD 중지] SBS <궁금한 이야기 Y> 2021년 4월 30일 에피소드",
+      "regdate": "2021-04-30",
+      "istop": "n",
+      "isNew": "n"
+    },
+    {
+      "noticeid": "2521",
+      "noticetypetext": "콘텐츠공지",
+      "noticetitle": "[중지] 5월 중지되는 프로그램 리스트",
+      "regdate": "2021-04-30",
+      "istop": "n",
+      "isNew": "n"
+    },
+    {
+      "noticeid": "2520",
+      "noticetypetext": "콘텐츠공지",
+      "noticetitle": "[업데이트] 4월 5주 프로그램 리스트",
+      "regdate": "2021-04-30",
+      "istop": "n",
+      "isNew": "n"
+    },
+    {
+      "noticeid": "2519",
+      "noticetypetext": "콘텐츠공지",
+      "noticetitle": "'Welike' > 'JNG KOREA' 채널명 변경 안내",
+      "regdate": "2021-04-30",
+      "istop": "n",
+      "isNew": "n"
+    },
+    {
+      "noticeid": "2518",
+      "noticetypetext": "콘텐츠공지",
+      "noticetitle": "[업데이트] 4월 4주 프로그램 리스트",
+      "regdate": "2021-04-23",
+      "istop": "n",
+      "isNew": "n"
+    },
+    {
+      "noticeid": "2517",
+      "noticetypetext": "서비스공지",
+      "noticetitle": "[서비스 안내] SKT 5GX 프라임, T플랜 스페셜/시니어 스페셜, 0플랜 라지/슈퍼히어로 콘텐츠 혜택 변경 안내",
+      "regdate": "2021-04-22",
+      "istop": "n",
+      "isNew": "n"
+    },
+    {
+      "noticeid": "2516",
+      "noticetypetext": "콘텐츠공지",
+      "noticetitle": "[처리완료] KBS 2TV <옥탑방의 문제아들> 2021년 4월 20일 에피소드",
+      "regdate": "2021-04-21",
+      "istop": "n",
+      "isNew": "n"
+    },
+    {
+      "noticeid": "2515",
+      "noticetypetext": "서비스공지",
+      "noticetitle": "[처리완료] 4월 27일 SBS 라디오 채널 점검",
+      "regdate": "2021-04-20",
+      "istop": "n",
+      "isNew": "n"
+    }
+  ]
+}
