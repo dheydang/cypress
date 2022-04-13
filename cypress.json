@@ -1,7 +1,7 @@
 {
   "baseUrl": "http://www.wavve.com",
   "viewportWidth": 1500,
-  "viewportHeight": 1000,
+  "viewportHeight": 900,
   "chromeWebSecurity": false,
   "projectId": "hqnidc"
 }
