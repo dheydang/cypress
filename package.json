@@ -12,7 +12,8 @@
     "cypress": "^6.2.1"
   },
   "dependencies": {
-    "bluebird": "^3.7.2"
+    "bluebird": "^3.7.2",
+    "cypress": "^4.8.0"
   },
   "repository": {
     "type": "git",
