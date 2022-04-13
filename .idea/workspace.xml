@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="327291b4-40f7-449e-b45a-9647dcd14b52" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/cypress-report.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cypress-report.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
       <workItem from="1649652677994" duration="1477000" />
       <workItem from="1649752989549" duration="1315000" />
       <workItem from="1649770337746" duration="50000" />
-      <workItem from="1649808191730" duration="1795000" />
+      <workItem from="1649808191730" duration="2448000" />
     </task>
     <servers />
   </component>
