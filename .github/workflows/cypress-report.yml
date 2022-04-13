@@ -18,7 +18,11 @@
 name: example-basic
 on:
   push:
+<<<<<<< Updated upstream
     branches:    
+=======
+    branches:
+>>>>>>> Stashed changes
       - 'master'
   pull_request:
 jobs:
